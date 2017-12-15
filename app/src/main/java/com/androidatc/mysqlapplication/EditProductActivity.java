@@ -35,13 +35,13 @@ public class EditProductActivity extends Activity {
     JSONParser jsonParser = new JSONParser();
 
     // single product url
-    private static final String url_product_details = "http://192.168.15.10/android/get_product_details.php";
+    private static final String url_product_details = "http://" + Constants.URL + "/android/get_product_details.php";
 
     // url to update product
-    private static final String url_update_product = "http://192.168.15.10/android/update_product.php";
+    private static final String url_update_product = "http://" + Constants.URL + "/android/update_product.php";
 
     // url to delete product
-    private static final String url_delete_product = "http://192.168.15.10/android/delete_product.php";
+    private static final String url_delete_product = "http://" + Constants.URL + "/android/delete_product.php";
 
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
